@@ -1,0 +1,36 @@
+:root {
+  --primary: #c29238;
+  --on-primary: #ffffff;
+  --primary-container: #e6d3b2;
+  --on-primary-container: #33260f;
+
+  --secondary: #592716;
+  --on-secondary: #ffffff;
+  --secondary-container: #e6bdaf;
+  --on-secondary-container: #33160d;
+
+  --tertiary: #2c6287;
+  --on-tertiary: #ffffff;
+
+  --background: #fcfcfc;
+  --on-background: #333231;
+  --surface: #fcfcfc;
+  --surface-soft: #faf6ee;
+  --outline: #999183;
+
+  --font-heading: "Poppins", system-ui, -apple-system, sans-serif;
+  --font-body: "Source Sans 3", system-ui, -apple-system, sans-serif;
+
+  --container: 1280px;
+  --container-narrow: 960px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 40px;
+  --shadow: 0 12px 32px rgba(51, 38, 15, 0.14);
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 96px;
+}
