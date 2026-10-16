@@ -6,19 +6,16 @@ Notulensi Survey ke Lokasi (Masjid Al Hidayah Bandungan)
 
 ## Struktur Organisasi
 
-Nama Pendiri:
+1. Nama Pendiri: Hj. Idwan Wi Admojo
+2. Yayasan:
 
-1. Hj. Idwan Wi Admojo
-   Yayasan:
-1. Pak Hj. Sarjono
-1. Ali Imron
-1. Eko
-   Ketua Takmir:
-1. Faizin
-   Sekretaris:
-1. Miftah Anwar
-   Bendahara:
-1. Abdul Muhid
+- Pak Hj. Sarjono
+- Ali Imron
+- Eko
+
+1. Ketua Takmir: Faizin
+2. Sekretaris: Miftah Anwar
+3. Bendahara: Abdul Muhid
 
 ## Fasilitas
 
