@@ -6,22 +6,27 @@ Notulensi Survey ke Lokasi (Masjid Al Hidayah Bandungan)
 
 ## Struktur Organisasi
 
-Nama Pendiri: Hj. Idwan Wi Admojo
-Yayasan:
-Pak Hj. Sarjono
-Ali Imron
-Eko
-Ketua Takmir: Faizin
-Sekretaris: Miftah Anwar
-Bendahara: Abdul Muhid
+Nama Pendiri:
+
+1. Hj. Idwan Wi Admojo
+   Yayasan:
+1. Pak Hj. Sarjono
+1. Ali Imron
+1. Eko
+   Ketua Takmir:
+1. Faizin
+   Sekretaris:
+1. Miftah Anwar
+   Bendahara:
+1. Abdul Muhid
 
 ## Fasilitas
 
-View Aestetik
-Bisa untuk Weeding
-Bersebelahan dengan kafe (Kopi Klotok)
-AC Indoor
-Tempat yang nyaman
+1. View Aestetik
+2. Bisa untuk Weeding
+3. Bersebelahan dengan kafe (Kopi Klotok)
+4. AC Indoor
+5. Tempat yang nyaman
 
 ## Latar Belakang Berdirinya
 
@@ -29,24 +34,24 @@ Pada saat itu Idwan (pendiri) itu bermain ke Bandungan, dan melihat tanah kosong
 
 ## Jadwal Adzan
 
-Subuh: Pak Miftah
-Dzuhur: Pak Abdul Mufid
-Ashar: Pak Doni
-Maghrib: Pak Fajar
-Isya’: Pak Doni
+1. Subuh: Pak Miftah
+2. Dzuhur: Pak Abdul Mufid
+3. Ashar: Pak Doni
+4. Maghrib: Pak Fajar
+5. Isya’: Pak Doni
 
 ## Jadwal Imam
 
-Subuh: Pak Fatkhur Rohman
-Dzuhur: Pak Fadil Mubarok
-Ashar: Pak Faizin
-Maghrib: Pak Faizin
-Isya’: Pak Fatkhur Rohman
+1. Subuh: Pak Fatkhur Rohman
+2. Dzuhur: Pak Fadil Mubarok
+3. Ashar: Pak Faizin
+4. Maghrib: Pak Faizin
+5. Isya’: Pak Fatkhur Rohman
 
 ## Jadwal Ngaji Subuh (Kitab Kuning)
 
-Minggu-Jumat: Pak Faizin
-Sabtu: Pak Imron
+1. Minggu-Jumat: Pak Faizin
+2. Sabtu: Pak Imron
 
 ## Narahubung
 
