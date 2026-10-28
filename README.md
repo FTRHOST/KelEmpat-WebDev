@@ -1,25 +1,26 @@
 # 🕌 Website Profile Masjid Al Hidayah
+
 ### Kec. Bandungan, Kab. Semarang
 
-> Proyek pengembangan website profil masjid sebagai tugas mata kuliah **Pemrograman Web**, Kelas 3A Teknologi Informasi — STMIK Sinar Nusantara / [nama kampus].
+> Proyek pengembangan website profil masjid sebagai tugas mata kuliah **Pemrograman Web**, Kelas 3A Teknologi Informasi — UIN Salatiga.
 
 ---
 
 ## 📋 Identitas Kelompok
 
-| Keterangan | Detail |
-|---|---|
-| **Kelas** | 3A Teknologi Informasi |
-| **Kelompok** | Kelompok Empat (4) |
+| Keterangan              | Detail                 |
+| ----------------------- | ---------------------- |
+| **Kelas**               | 3A Teknologi Informasi |
+| **Kelompok**            | Kelompok Empat (4)     |
 | **Judul / Tema Proyek** | Website Profile Masjid |
 
 ### 👥 Anggota Kelompok
 
-| No | NIM | Nama | Peran |
-|---|---|---|---|
-| 1 | 43050250010 | Miftakhul Anwar | Project Manager & Back-End Logic |
-| 2 | 43050250011 | Muhammad Fathir Al Faruq | Front-End Developer & UI Designer |
-| 3 | 43050250013 | Novi Aprilia | Content Writer & QA Tester |
+| No  | NIM         | Nama                     | Peran                             |
+| --- | ----------- | ------------------------ | --------------------------------- |
+| 1   | 43050250010 | Miftakhul Anwar          | Project Manager & Back-End Logic  |
+| 2   | 43050250011 | Muhammad Fathir Al Faruq | Front-End Developer & UI Designer |
+| 3   | 43050250013 | Novi Aprilia             | Content Writer & QA Tester        |
 
 ---
 
@@ -41,7 +42,9 @@ Website ini dibuat sebagai media digital agar masyarakat dapat mengakses informa
 ## 🗂️ Rencana Jobdesk
 
 ### 1. Miftakhul Anwar — Project Manager & Back-End Logic
+
 **Tanggung Jawab:**
+
 - Mengkoordinasi pembagian tugas dan timeline pengerjaan antar anggota
 - Menyusun dan mengelola struktur repositori Git (branching, merge, pull request)
 - Mengembangkan logika interaktif JavaScript (`js/main.js`):
@@ -53,7 +56,9 @@ Website ini dibuat sebagai media digital agar masyarakat dapat mengakses informa
 - Mendokumentasikan README dan draft teknis proyek
 
 ### 2. Muhammad Fathir Al Faruq — Front-End Developer & UI Designer
+
 **Tanggung Jawab:**
+
 - Merancang dan mengimplementasikan desain antarmuka (UI/UX) keseluruhan website
 - Membangun struktur HTML (`index.html`) yang semantik dan aksesibel
 - Mengembangkan sistem desain CSS:
@@ -69,7 +74,9 @@ Website ini dibuat sebagai media digital agar masyarakat dapat mengakses informa
 - Mengoptimalkan aset gambar dan video
 
 ### 3. Novi Aprilia — Content Writer & QA Tester
+
 **Tanggung Jawab:**
+
 - Melakukan survei dan pengumpulan data konten dari Masjid Al Hidayah:
   - Notulensi wawancara dengan pengurus masjid
   - Pengumpulan foto dan video untuk aset website
@@ -88,13 +95,13 @@ Website ini dibuat sebagai media digital agar masyarakat dapat mengakses informa
 
 ### Stack Teknologi
 
-| Teknologi | Fungsi |
-|---|---|
-| **HTML5** | Struktur dan konten halaman (semantik) |
-| **CSS3 (Vanilla)** | Styling, layout, animasi |
-| **JavaScript (Vanilla)** | Interaktivitas halaman |
-| **Google Fonts** | Tipografi (Poppins, Source Sans 3) |
-| **Git & GitHub** | Version control & kolaborasi |
+| Teknologi                | Fungsi                                 |
+| ------------------------ | -------------------------------------- |
+| **HTML5**                | Struktur dan konten halaman (semantik) |
+| **CSS3 (Vanilla)**       | Styling, layout, animasi               |
+| **JavaScript (Vanilla)** | Interaktivitas halaman                 |
+| **Google Fonts**         | Tipografi (Poppins, Source Sans 3)     |
+| **Git & GitHub**         | Version control & kolaborasi           |
 
 ### Arsitektur Proyek
 
@@ -124,15 +131,15 @@ KelEmpat-WebDev/
 
 Website menggunakan arsitektur **Single Page** dengan navigasi berbasis anchor (`#`):
 
-| Section ID | Nama Section | Deskripsi |
-|---|---|---|
-| `#home` | Hero | Landing section dengan video background |
-| `#fasilitas` | Fasilitas Masjid | Grid kartu foto fasilitas |
-| `#tentang` | Tentang / Latar Belakang | Sejarah pendirian masjid |
-| `#kegiatan` | Kegiatan Rutin | Grid kartu foto kegiatan |
-| `#organisasi` | Struktur Organisasi | Org chart takmir masjid |
-| `#jadwal` | Jadwal | Jadwal adzan, imam, dan ngaji subuh |
-| `#kontak` | Kontak (Footer) | Alamat, telepon, email, media sosial |
+| Section ID    | Nama Section             | Deskripsi                               |
+| ------------- | ------------------------ | --------------------------------------- |
+| `#home`       | Hero                     | Landing section dengan video background |
+| `#fasilitas`  | Fasilitas Masjid         | Grid kartu foto fasilitas               |
+| `#tentang`    | Tentang / Latar Belakang | Sejarah pendirian masjid                |
+| `#kegiatan`   | Kegiatan Rutin           | Grid kartu foto kegiatan                |
+| `#organisasi` | Struktur Organisasi      | Org chart takmir masjid                 |
+| `#jadwal`     | Jadwal                   | Jadwal adzan, imam, dan ngaji subuh     |
+| `#kontak`     | Kontak (Footer)          | Alamat, telepon, email, media sosial    |
 
 ### Sistem Desain CSS
 
@@ -150,14 +157,14 @@ File `css/variables.css` mendefinisikan semua design token:
 
 ### Komponen Utama
 
-| Komponen | Selector CSS | Keterangan |
-|---|---|---|
-| Header Navigasi | `.site-header`, `.nav` | Sticky header dengan link aktif |
-| Hero Section | `.hero`, `.hero__bg` | Video background + animasi wave |
-| Card Fasilitas/Kegiatan | `.card`, `.card__img` | Foto dengan caption overlay |
-| Org Chart | `.org-tree`, `.org__card` | Diagram pohon struktur takmir |
-| Jadwal | `.jadwal`, `.jadwal__list` | Daftar jadwal dengan foto latar |
-| Footer | `.footer`, `.footer__grid` | Grid 3 kolom: brand, nav, kontak |
+| Komponen                | Selector CSS               | Keterangan                       |
+| ----------------------- | -------------------------- | -------------------------------- |
+| Header Navigasi         | `.site-header`, `.nav`     | Sticky header dengan link aktif  |
+| Hero Section            | `.hero`, `.hero__bg`       | Video background + animasi wave  |
+| Card Fasilitas/Kegiatan | `.card`, `.card__img`      | Foto dengan caption overlay      |
+| Org Chart               | `.org-tree`, `.org__card`  | Diagram pohon struktur takmir    |
+| Jadwal                  | `.jadwal`, `.jadwal__list` | Daftar jadwal dengan foto latar  |
+| Footer                  | `.footer`, `.footer__grid` | Grid 3 kolom: brand, nav, kontak |
 
 ### Fitur Interaktif (JavaScript)
 
@@ -211,40 +218,40 @@ python3 -m http.server 8000
 
 ### Struktur Organisasi Masjid
 
-| Jabatan | Nama |
-|---|---|
-| Pendiri | Hj. Idwan Wi Admojo |
-| Yayasan | Pak Hj. Sarjono, Ali Imron, Eko |
-| Ketua Takmir | Faizin |
-| Sekretaris | Miftah Anwar |
-| Bendahara | Abdul Muhid |
+| Jabatan      | Nama                            |
+| ------------ | ------------------------------- |
+| Pendiri      | Hj. Idwan Wi Admojo             |
+| Yayasan      | Pak Hj. Sarjono, Ali Imron, Eko |
+| Ketua Takmir | Faizin                          |
+| Sekretaris   | Miftah Anwar                    |
+| Bendahara    | Abdul Muhid                     |
 
 ### Jadwal Adzan
 
-| Waktu | Petugas |
-|---|---|
-| Subuh | Pak Miftah |
-| Dzuhur | Pak Abdul Mufid |
-| Ashar | Pak Doni |
-| Maghrib | Pak Fajar |
-| Isya' | Pak Doni |
+| Waktu   | Petugas         |
+| ------- | --------------- |
+| Subuh   | Pak Miftah      |
+| Dzuhur  | Pak Abdul Mufid |
+| Ashar   | Pak Doni        |
+| Maghrib | Pak Fajar       |
+| Isya'   | Pak Doni        |
 
 ### Jadwal Imam
 
-| Waktu | Petugas |
-|---|---|
-| Subuh | Pak Fatkhur Rohman |
-| Dzuhur | Pak Fadil Mubarok |
-| Ashar | Pak Faizin |
-| Maghrib | Pak Faizin |
-| Isya' | Pak Fatkhur Rohman |
+| Waktu   | Petugas            |
+| ------- | ------------------ |
+| Subuh   | Pak Fatkhur Rohman |
+| Dzuhur  | Pak Fadil Mubarok  |
+| Ashar   | Pak Faizin         |
+| Maghrib | Pak Faizin         |
+| Isya'   | Pak Fatkhur Rohman |
 
 ### Jadwal Ngaji Subuh (Kitab Kuning)
 
-| Hari | Petugas |
-|---|---|
+| Hari           | Petugas    |
+| -------------- | ---------- |
 | Minggu — Jumat | Pak Faizin |
-| Sabtu | Pak Imron |
+| Sabtu          | Pak Imron  |
 
 ### Narahubung Masjid
 
@@ -261,8 +268,8 @@ Proyek ini menggunakan lisensi **MIT**. Lihat file [LICENSE](./LICENSE) untuk de
 <div align="center">
 
 **Kelompok 4 — Kelas 3A Teknologi Informasi**  
-Miftakhul Anwar · Muhammad Fathir Al Faruq · Novi Aprilia  
+Miftakhul Anwar · Muhammad Fathir Al Faruq · Novi Aprilia
 
-*Website Profile Masjid Al Hidayah, Bandungan — 2026*
+_Website Profile Masjid Al Hidayah, Bandungan — 2026_
 
 </div>
